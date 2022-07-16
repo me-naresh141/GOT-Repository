@@ -1,0 +1,86 @@
+@import './reset.css';
+* {
+  box-sizing: border-box;
+}
+
+/* general-style */
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 0 3rem 0;
+}
+/* header */
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.text-center {
+  text-align: center;
+  background: linear-gradient(to right, rgb(128, 165, 255), rgb(154, 88, 255));
+}
+#serch-box {
+  width: 20%;
+  padding: 0.5rem 0;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline-color: green;
+}
+.listBtn {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  background-color: rgba(0, 0, 0, 0.647);
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 3px;
+  margin: 1rem 0 2rem 1.5rem;
+  box-shadow: 0px 2px 3px 2px gray;
+}
+.listBtn:hover {
+  cursor: pointer;
+}
+.ul {
+  text-align: center;
+}
+.ul2 {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+/* hero section */
+.allLi {
+  width: 25%;
+  background-color: rgb(189, 225, 251);
+  line-height: 2;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px 1px rgba(128, 128, 128);
+}
+.image {
+  width: 20%;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+p {
+  text-align: start;
+  line-height: 1;
+}
+.knowmore-btn {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+.knowmore-btn:hover {
+  background-color: white;
+  color: black;
+}
